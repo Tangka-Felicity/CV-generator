@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Generator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="cv-section">
+            <h2>CV Generator</h2>
+            <input type="text" id="inputName" placeholder="Full Name" required />
+            <input type="text" id="inputPosition" placeholder="Position Title" required />
+            <input type="number" id="inputAge" placeholder="Age" required />
+            <input type="text" id="inputLocation" placeholder="Location" required />
+            <input type="email" id="inputEmail" placeholder="Email" required />
+            <input type="tel" id="inputPhone" placeholder="Phone" required />
+            <input type="text" id="inputFreelance" placeholder="Freelance Availability" required />
+            <textarea id="inputSkills" placeholder="Skills" required></textarea>
+            <button id="saveBtn">Save and Display CV</button>
+        </div>
+       
+
+        <div id="display-section" class="hidden">
+            <h2>Your CV</h2>
+            <div>
+                <h3 id="fullName"></h3>
+                <p id="positionTitle"></p>
+                <p>Age: <span id="age"></span></p>
+                <p>Location: <span id="location"></span></p>
+                <p>Email: <span id="email"></span></p>
+                <p>Phone: <span id="phone"></span></p>
+                <p>Freelance: <span id="freelance"></span></p>
+                <p>Skills: <span id="skills"></span></p>
+            </div>
+            <button id="downloadBtn">Download CV as PDF</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

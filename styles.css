@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+header {
+    text-align: center;
+}
+
+.profile {
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.personal-info, .skills {
+    width: 88%;
+}
+
+h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+.placeholder {
+    color: #999; /* Light gray for prompts */
+    font-style: italic;
+}
+
+.past-logins {
+    margin-top: 20px;
+}
+
+.past-logins h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+.past-logins ul {
+    list-style-type: none;
+    padding: 0;
+}
